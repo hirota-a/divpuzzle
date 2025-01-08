@@ -2,38 +2,43 @@ header {
     width: 400px;
     height: 100px;
     background-color: #f00;
+    position: relative;
 }
 
 .block-w {
-    float: right;
-    padding-top: 20px;
-    padding-right: 20px;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    width: 160px;
+    height: 60px;
+    background-color: #FFF;
 }
 
 .block-list {
     display: flex;
-    margin-left: 10px 0 10px 0;
+    padding-top: 10px;
 }
 
 .list {
+    margin-left: 10px;
     width: 40px;
     height: 40px;
     background-color: #6729a0;
-    border: 10px solid #FFF;
-    margin-left: -10px;
 }
 
 main {
-    display:flex;
+    font-size: 0;
 }
 
 .block-g {
+    display: inline-block;
     width: 150px;
     height: 250px;
     background: #0a5;
 }
 
 .block-b {
+    display: inline-block;
     width: 250px;
     height: 250px;
     background: #2563eb;
